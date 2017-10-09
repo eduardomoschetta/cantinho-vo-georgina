@@ -55,7 +55,7 @@ AppAsset::register($this);
                     <a href="/site/quem-somos">Quem somos</a>
                 </li>
                 <li class= "hidden-xs hidden-sm li-logo">
-                    <a rel="home" href="index.html">
+                    <a rel="home" href="/site/index">
                         <img class="logo" src="/img/vogeo/logo-vertical.png" width="200" alt="logo">
                     </a>
                 </li>
