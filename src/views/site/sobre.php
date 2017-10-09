@@ -13,7 +13,7 @@ $this->params['page'] = 'sobre';
         <div class="item active">
             <img alt="" src="/img/vogeo/slide1.jpg">
                 <div class="carousel-caption">
-                    Acolhemos Elas
+                    O que fazemos
                 </div>
             </img>
         </div>
@@ -61,7 +61,7 @@ $this->params['page'] = 'sobre';
         </em>
     </p>
     <div class="row">
-        <div class="col-md-3">
+        <div class="col-xs-10 col-xs-offset-1 col-sm-5 col-sm-offset-1 col-md-3 col-md-offset-0">
             <div class="service-features">
                 <div class="img-container">
                     <i class="fa fa-recycle"></i>
@@ -75,7 +75,7 @@ $this->params['page'] = 'sobre';
             </div>
         </div>
         <!-- END ONE THIRD COLUMN -->
-        <div class="col-md-3">
+        <div class="col-xs-10 col-xs-offset-1 col-sm-5 col-sm-offset-0 col-md-3 col-md-offset-0">
             <div class="service-features service-features">
                 <div class="img-container">
                     <i class="fa fa-leaf"></i>
@@ -89,7 +89,7 @@ $this->params['page'] = 'sobre';
             </div>
         </div>
         <!-- END ONE THIRD COLUMNS -->
-        <div class="col-md-3">
+        <div class="col-xs-10 col-xs-offset-1 col-sm-5 col-sm-offset-1 col-md-3 col-md-offset-0">
             <div class="service-features">
                 <div class="img-container">
                     <i class="fa fa-pencil-square-o"></i>
@@ -103,7 +103,7 @@ $this->params['page'] = 'sobre';
             </div>
         </div>
         <!-- END ONE THIRD COLUMNS -->
-        <div class="col-md-3">
+        <div class="col-xs-10 col-xs-offset-1 col-sm-5 col-sm-offset-0 col-md-3 col-md-offset-0">
             <div class="service-features">
                 <div class="img-container">
                     <i class="fa fa-paper-plane-o"></i>

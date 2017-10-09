@@ -41,7 +41,7 @@ divider {
   border-bottom: 2px solid;
 }
 body {
-  background: rgba(76, 148, 98, 0.5);
+  background: rgba(76, 148, 98, 0.3);
   margin: 0px;
   padding: 0px;
   font-family: 'Varela Round', sans-serif;
@@ -102,6 +102,12 @@ li {
   }
   .collapsing {
     overflow: hidden!important;
+  }
+  .header {
+    padding-bottom: 0 !important;
+  }
+  .navbar {
+    top: -60px;
   }
 }
 .header {
@@ -662,6 +668,11 @@ section.blog {
     background: none;
   }
 }
+@media (max-width: 991px) {
+  .carousel {
+    float: none;
+  }
+}
 .carousel-caption {
   font-family: 'Poiret One', cursive;
   text-transform: uppercase;
@@ -977,7 +988,7 @@ button.button-info {
 }
 /* change border radius for the tab , apply corners on top*/
 #exTab3 .nav-pills > li > a {
-  border-radius: 4px 4px 0 0 ;
+  border-radius: 4px 4px 0 0;
 }
 #exTab3 .tab-content {
   color: white;
@@ -1044,6 +1055,9 @@ footer {
 footer a,
 footer .fa {
   color: white;
+}
+footer a:hover {
+  color: #172a1e;
   text-decoration: none;
 }
 footer h4 {
@@ -1324,4 +1338,11 @@ footer h4 {
   .footer-bottom-content nav a {
     margin-right: 30px;
   }
+}
+/*-------------------------------------------------------------------------------------------------------------------------------*/
+/* CUSTOMIZACOES VO GEORGINA */
+/*-------------------------------------------------------------------------------------------------------------------------------*/
+#table-needs th {
+  text-align: center;
+  background-color: rgba(59, 114, 76, 0.3);
 }
