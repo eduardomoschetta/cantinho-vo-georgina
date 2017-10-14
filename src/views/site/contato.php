@@ -21,7 +21,8 @@ $this->params['page'] = 'contato';
             Informações
         </h3>
         <p>
-            Morbi rutrum massa eget mi gravida, sit amet mollis magna gravida. Morbi sodales, ligula quis ornare bibendum, magna erat convallis ipsum, id posuere ligula massa vitae leo.
+            Você pode entrar em contato conosco preenchendo o formulário ao lado,
+            ou se preferir, através dos canais abaixo. 
         </p>
         <ul class="clearfix">
             <li>
@@ -52,7 +53,7 @@ $this->params['page'] = 'contato';
                 <p>
                     <span class="fa fa-map-marker">
                     </span>
-                    Endereço: Technext,Sylhet (TODO)
+                    Endereço: Av. Arnaldo Bohrer, 826 - Jardim Marabá, Porto Alegre - RS, 91720-130
                 </p>
             </li>
         </ul>

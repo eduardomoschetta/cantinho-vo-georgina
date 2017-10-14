@@ -55,7 +55,7 @@ $this->params['page'] = 'sobre';
     <p class="text-center sub-text">
         <em class="normal-line">
             Recebemos cerca de 120 crianças ao dia. São crianças que vivem em
-            situação de abandono e risco, ou não tem com quem ficar no turno
+            situação de carência e risco, ou não tem com quem ficar no turno
             inverso da escola. Trabalhamos muito para garantir o café da manhã,
             almoço, lanche da tarde e jantar das crianças. Além disso, temos:
         </em>

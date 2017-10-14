@@ -93,7 +93,8 @@ $this->params['page'] = 'como-ajudar';
                 <p>
                     Banco Sicredi<br>
 					Agência: 0116<br>
-					Conta corrente: 01013-2
+					Conta corrente: 01013-2<br>
+                    CNPJ: 23.658.604/0001-25
                 </p>
             </div>
         </div>
