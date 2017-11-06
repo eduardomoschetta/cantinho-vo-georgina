@@ -70,7 +70,7 @@ $this->params['page'] = 'sobre';
                     Artesanato com material reciclável
                 </h3>
                 <p>
-                    Pellentesquemattis arcu malesuada in. Donec urna sem, rutrum sit amet pellentesque vel, suscipit at metus.
+                    <!-- Pellentesquemattis arcu malesuada in. Donec urna sem, rutrum sit amet pellentesque vel, suscipit at metus. -->
                 </p>
             </div>
         </div>
@@ -84,7 +84,7 @@ $this->params['page'] = 'sobre';
                     Atividades de jardinagem na horta
                 </h3>
                 <p>
-                    Pellentesquemattis arcu malesuada in. Donec urna sem, rutrum sit amet pellentesque vel, suscipit at metus.
+                    <!-- Pellentesquemattis arcu malesuada in. Donec urna sem, rutrum sit amet pellentesque vel, suscipit at metus. -->
                 </p>
             </div>
         </div>
@@ -98,7 +98,7 @@ $this->params['page'] = 'sobre';
                     Auxílio nos deveres da escola
                 </h3>
                 <p>
-                    Pellentesquemattis arcu malesuada in. Donec urna sem, rutrum sit amet pellentesque vel, suscipit at metus.
+                    <!-- Pellentesquemattis arcu malesuada in. Donec urna sem, rutrum sit amet pellentesque vel, suscipit at metus. -->
                 </p>
             </div>
         </div>
@@ -112,7 +112,7 @@ $this->params['page'] = 'sobre';
                     Muitas brincadeiras e diversão
                 </h3>
                 <p>
-                    Pellentesquemattis arcu malesuada in. Donec urna sem, rutrum sit amet pellentesque vel, suscipit at metus.
+                    <!-- Pellentesquemattis arcu malesuada in. Donec urna sem, rutrum sit amet pellentesque vel, suscipit at metus. -->
                 </p>
             </div>
         </div>
