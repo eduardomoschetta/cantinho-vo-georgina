@@ -32,7 +32,7 @@ $this->params['page'] = 'quem-somos';
                         </div>
                     </div>
                     <h3 class="text-center">
-                        Vó Gergogina
+                        Vó Georgina
                     </h3>
                     <h4 class="text-center">
                         Idealizadora
