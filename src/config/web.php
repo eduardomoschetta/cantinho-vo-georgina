@@ -27,7 +27,15 @@ $config = [
             // send all mails to a file by default. You have to set
             // 'useFileTransport' to false and configure a transport
             // for the mailer to send real emails.
-            'useFileTransport' => true,
+            // 'useFileTransport' => true,
+            'transport' => [
+                'class' => 'Swift_SmtpTransport',
+                'host' => 'smtp.elasticemail.com',
+                'username' => 'contato@cantinhovogeorgina.org',
+                'password' => 'c3376224-0632-492c-b63f-0d6be2e0b3fe',
+                'port' => '2525',
+                'encryption' => 'tls'
+            ]
         ],
         'log' => [
             'traceLevel' => YII_DEBUG ? 3 : 0,

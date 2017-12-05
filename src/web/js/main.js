@@ -41,4 +41,17 @@ $(document).ready(function(){
 		return false;
 	});
 	
+	//Form ajax
+	var $contactForm = $('#contact-us');
+	$contactForm.ajaxForm({
+		success: function() {
+			$('.not-visible-message.success').removeClass('not-visible-message');
+			$('.not-visible-message.error').remove();
+			$contactForm.hide();
+		},
+		error: function() {
+			$('.not-visible-message.error').removeClass('not-visible-message');
+		}
+    }); 
+
 });

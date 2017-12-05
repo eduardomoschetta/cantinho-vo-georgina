@@ -1346,3 +1346,6 @@ footer h4 {
   text-align: center;
   background-color: rgba(59, 114, 76, 0.3);
 }
+.form {
+  color: #218649 !important;
+}

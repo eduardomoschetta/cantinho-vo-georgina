@@ -31,7 +31,7 @@ $this->params['page'] = 'contato';
                     </span>
                     Email:
                     <a href="mailto:contato@cantinhovogeorgina.org">
-                        contato@cantinhovogeorgina.org
+                        <b>contato@cantinhovogeorgina.org</b>
                     </a>
                 </p>
             </li>
@@ -66,20 +66,26 @@ $this->params['page'] = 'contato';
         <!-- Form Area -->
         <div class="contact-form">
             <!-- Form -->
-            <form action="#" id="contact-us" method="post">
+            <form action="#" id="contact-us" method="post" class="clearfix">
+
+                <input id="form-token" type="hidden" 
+                    name="<?= Yii::$app->request->csrfParam ?>"
+                    value="<?= Yii::$app->request->csrfToken ?>"
+                />
+
                 <!-- Left Inputs -->
                 <div class="col-xs-12 wow animated slideInLeft" data-wow-delay=".5s">
                     <!-- Name -->
                     <input class="form" id="name" name="name" placeholder="Nome" required="required" type="text"/>
                     <!-- Email -->
-                    <input class="form" id="mail" name="mail" placeholder="Email" required="required" type="email"/>
+                    <input class="form" id="mail" name="email" placeholder="Email" required="required" type="email"/>
                 </div>
                 <!-- End Left Inputs -->
                 <!-- Right Inputs -->
                 <div class="col-xs-12 wow animated slideInRight" data-wow-delay=".5s">
                     <!-- Message -->
-                    <textarea class="form textarea" id="message" name="message" placeholder="Mensagem">
-                    </textarea>
+                    <textarea class="form textarea" id="message" name="body" placeholder="Mensagem"
+                    ></textarea>
                 </div>
                 <!-- End Right Inputs -->
                 <!-- Bottom Submit -->
@@ -97,11 +103,18 @@ $this->params['page'] = 'contato';
             <!-- Your Mail Message -->
             <div class="mail-message-area">
                 <!-- Message -->
-                <div class="alert gray-bg mail-message not-visible-message">
+                <div class="alert success gray-bg mail-message not-visible-message">
                     <strong>
                         Obrigado !
                     </strong>
                     Seu e-mail foi entregue e será respondido em breve.
+                </div>
+                <div class="alert error gray-bg mail-message not-visible-message">
+                    <strong>
+                        Ops !
+                    </strong>
+                    Não foi possível enviar seu e-mail. Tente mais tarde ou, se preferir,
+                    nos contate através de outro canal.
                 </div>
             </div>
         </div>

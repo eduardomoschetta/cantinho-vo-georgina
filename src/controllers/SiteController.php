@@ -53,6 +53,20 @@ class SiteController extends Controller
 
     public function actionContato()
     {
+        if (Yii::$app->request->isPost) {
+            
+            $form = new ContactForm();
+            if ($form->load(Yii::$app->request->post(), '') && $form->validate()) {
+                $result = $form->contact('contato@cantinhovogeorgina.org');
+            }
+            else {
+                $result = false;
+            }
+
+            Yii::$app->response->statusCode = $result ? 200 : 400;
+            return;
+        }
+        
         return $this->render('contato');
     }
 }

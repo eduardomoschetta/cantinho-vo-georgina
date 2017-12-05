@@ -26,6 +26,7 @@ class AppAsset extends AssetBundle
     public $js = [
         'js/nav-hover.min.js',
         'js/jquery.bxslider.min.js',
+        'js/jquery.form.js',
         'js/main.js'
     ];
     public $depends = [
