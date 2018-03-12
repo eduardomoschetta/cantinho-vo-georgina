@@ -135,7 +135,7 @@ p.text-center.sub-text {
 }
 .emph-line {
   max-width: 690px;
-  margin: 20px auto;
+  margin: 30px auto;
   display: block;
   font-size: 1.1em;
   color: #212121;
@@ -144,7 +144,7 @@ p.text-center.sub-text {
   max-width: 600px;
   margin: 0 auto;
   display: block;
-  margin-top: 10px;
+  margin-top: 20px;
 }
 li.selected a {
   color: #212121 !important;
