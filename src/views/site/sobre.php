@@ -11,7 +11,7 @@ $this->params['page'] = 'sobre';
     <!-- Wrapper for slides -->
     <div class="carousel-inner" role="listbox">
         <div class="item active">
-            <img alt="" src="/img/vogeo/slide1-new.jpg">
+            <img alt="" src="/img/vogeo/slide1.jpg">
                 <div class="carousel-caption">
                     O que fazemos
                 </div>
