@@ -57,7 +57,7 @@ class SiteController extends Controller
             
             $form = new ContactForm();
             if ($form->load(Yii::$app->request->post(), '') && $form->validate()) {
-                $result = $form->contact('contato@cantinhovogeorgina.org');
+                $result = $form->contact();
             }
             else {
                 $result = false;
