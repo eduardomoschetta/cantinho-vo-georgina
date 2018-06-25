@@ -39,7 +39,7 @@ $this->params['page'] = 'contato';
                 <p>
                     <span class="fa fa-phone">
                     </span>
-                    Telefone: (51) 3108-4990
+                    Telefone: (51)3108-4990, (51)99601-8429, (51)98417-7154
                 </p>
             </li>
             <li>
