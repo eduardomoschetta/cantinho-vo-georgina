@@ -30,12 +30,13 @@ $config = [
             // 'useFileTransport' => true,
             'transport' => [
                 'class' => 'Swift_SmtpTransport',
-                'host' => 'smtp.elasticemail.com',
-                'username' => 'contato@cantinhovogeorgina.org',
-                'password' => 'c3376224-0632-492c-b63f-0d6be2e0b3fe',
-                'port' => '2525',
+                'host' => 'in-v3.mailjet.com',
+                'username' => 'e11bf678bd94b11eae6d880ea0962eb6',
+                'password' => '852784fa30c1291cdbe60c2e67f7632b',
+                'port' => '587',
                 'encryption' => 'tls'
             ]
+
         ],
         'log' => [
             'traceLevel' => YII_DEBUG ? 3 : 0,
